@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69400BE71C24421300741E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69400BE61C24421300741E79 /* AppDelegate.swift */; };
+		69400BE91C24421300741E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69400BE81C24421300741E79 /* ViewController.swift */; };
+		69400BEC1C24421300741E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69400BEA1C24421300741E79 /* Main.storyboard */; };
+		69400BEE1C24421300741E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69400BED1C24421300741E79 /* Assets.xcassets */; };
+		69400BF11C24421300741E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69400BEF1C24421300741E79 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69400BE31C24421300741E79 /* FilBaladCinemaGuideUsingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilBaladCinemaGuideUsingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69400BE61C24421300741E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69400BE81C24421300741E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69400BEB1C24421300741E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69400BED1C24421300741E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69400BF01C24421300741E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69400BF21C24421300741E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69400BE01C24421300741E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69400BDA1C24421300741E79 = {
+			isa = PBXGroup;
+			children = (
+				69400BE51C24421300741E79 /* FilBaladCinemaGuideUsingSwift */,
+				69400BE41C24421300741E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69400BE41C24421300741E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69400BE31C24421300741E79 /* FilBaladCinemaGuideUsingSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69400BE51C24421300741E79 /* FilBaladCinemaGuideUsingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				69400BE61C24421300741E79 /* AppDelegate.swift */,
+				69400BE81C24421300741E79 /* ViewController.swift */,
+				69400BEA1C24421300741E79 /* Main.storyboard */,
+				69400BED1C24421300741E79 /* Assets.xcassets */,
+				69400BEF1C24421300741E79 /* LaunchScreen.storyboard */,
+				69400BF21C24421300741E79 /* Info.plist */,
+			);
+			path = FilBaladCinemaGuideUsingSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69400BE21C24421300741E79 /* FilBaladCinemaGuideUsingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69400BF51C24421300741E79 /* Build configuration list for PBXNativeTarget "FilBaladCinemaGuideUsingSwift" */;
+			buildPhases = (
+				69400BDF1C24421300741E79 /* Sources */,
+				69400BE01C24421300741E79 /* Frameworks */,
+				69400BE11C24421300741E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilBaladCinemaGuideUsingSwift;
+			productName = FilBaladCinemaGuideUsingSwift;
+			productReference = 69400BE31C24421300741E79 /* FilBaladCinemaGuideUsingSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69400BDB1C24421300741E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sarmady;
+				TargetAttributes = {
+					69400BE21C24421300741E79 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 69400BDE1C24421300741E79 /* Build configuration list for PBXProject "FilBaladCinemaGuideUsingSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69400BDA1C24421300741E79;
+			productRefGroup = 69400BE41C24421300741E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69400BE21C24421300741E79 /* FilBaladCinemaGuideUsingSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69400BE11C24421300741E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69400BF11C24421300741E79 /* LaunchScreen.storyboard in Resources */,
+				69400BEE1C24421300741E79 /* Assets.xcassets in Resources */,
+				69400BEC1C24421300741E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69400BDF1C24421300741E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69400BE91C24421300741E79 /* ViewController.swift in Sources */,
+				69400BE71C24421300741E79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69400BEA1C24421300741E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69400BEB1C24421300741E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69400BEF1C24421300741E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69400BF01C24421300741E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69400BF31C24421300741E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69400BF41C24421300741E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69400BF61C24421300741E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FilBaladCinemaGuideUsingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarmady.FilBaladCinemaGuideUsingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69400BF71C24421300741E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FilBaladCinemaGuideUsingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarmady.FilBaladCinemaGuideUsingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69400BDE1C24421300741E79 /* Build configuration list for PBXProject "FilBaladCinemaGuideUsingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69400BF31C24421300741E79 /* Debug */,
+				69400BF41C24421300741E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69400BF51C24421300741E79 /* Build configuration list for PBXNativeTarget "FilBaladCinemaGuideUsingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69400BF61C24421300741E79 /* Debug */,
+				69400BF71C24421300741E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69400BDB1C24421300741E79 /* Project object */;
+}
