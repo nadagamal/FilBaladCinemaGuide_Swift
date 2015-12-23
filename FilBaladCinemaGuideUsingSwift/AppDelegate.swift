@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+      //  [[UITabBar appearance] setSelectedImageTintColor:[UIColor whiteColor]];
+       // UITabBar.appearance() .selectedImageTintColor=UIColor.clearColor();
+        let rootViewController = self.window!.rootViewController as! UITabBarController
+     //   UITabBar.appearance() .selectedImageTintColor=UIColor.purpleColor();
+        // Sets the default color of the icon of the selected UITabBarItem and Title
+       // UITabBar.appearance().tintColor = UIColor.clearColor()
+        
+        let tabArray = rootViewController.tabBar.items;
+        for item in tabArray! as [UITabBarItem] {
+            if let image = item.image {
+                item.selectedImage=image;
+                item.image = image.imageWithRenderingMode(.AlwaysOriginal)
+            }
+        }
+        
+
         return true
     }
 
