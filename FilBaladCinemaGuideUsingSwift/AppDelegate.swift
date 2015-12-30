@@ -24,9 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        // UITabBar.appearance().tintColor = UIColor.clearColor()
         
         let tabArray = rootViewController.tabBar.items;
+        rootViewController.tabBar.tintColor=UIColor .whiteColor();
         for item in tabArray! as [UITabBarItem] {
             if let image = item.image {
-                item.selectedImage=image;
+               // item.selectedImage=image;
                 item.image = image.imageWithRenderingMode(.AlwaysOriginal)
             }
         }
